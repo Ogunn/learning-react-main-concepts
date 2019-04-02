@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import LoginControl from "./components/LoginControl";
 import Mailbox from "./components/Mailbox";
+import Timer from "./components/Timer";
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
           </a>
         </header>
         <main>
+          <Timer />
           <LoginControl />
           <Mailbox unreadMessages={messages} />
         </main>
