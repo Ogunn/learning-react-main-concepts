@@ -5,6 +5,7 @@ import LoginControl from "./components/RenderizaçãoCondicional/LoginControl";
 import Mailbox from "./components/RenderizaçãoCondicional/Mailbox";
 import Timer from "./components/RenderizaçãoCondicional/Timer";
 import Toggle from "./components/ManipulandoEventos/Toggle";
+import Page from "./components/RenderizaçãoCondicional/Page";
 
 class App extends Component {
   render() {
@@ -28,6 +29,7 @@ class App extends Component {
           </a>
         </header>
         <main>
+          <Page />
           <Toggle />
           <Timer />
           <LoginControl />
