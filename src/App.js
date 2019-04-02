@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import LoginControl from "./components/LoginControl";
-import Mailbox from "./components/Mailbox";
-import Timer from "./components/Timer";
-import Toggle from "./components/demo/Toggle";
+import LoginControl from "./components/RenderizaçãoCondicional/LoginControl";
+import Mailbox from "./components/RenderizaçãoCondicional/Mailbox";
+import Timer from "./components/RenderizaçãoCondicional/Timer";
+import Toggle from "./components/ManipulandoEventos/Toggle";
 
 class App extends Component {
   render() {
