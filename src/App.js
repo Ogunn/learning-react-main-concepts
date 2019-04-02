@@ -7,6 +7,7 @@ import Timer from "./components/RenderizaçãoCondicional/Timer";
 import Toggle from "./components/ManipulandoEventos/Toggle";
 import Page from "./components/RenderizaçãoCondicional/Page";
 import NumberList from "./components/Listas&Chaves/NumberList";
+import NumberListv2 from "./components/Listas&Chaves/NumberListv2";
 
 class App extends Component {
   render() {
@@ -37,6 +38,7 @@ class App extends Component {
           <Timer />
           <LoginControl />
           <Mailbox unreadMessages={messages} />
+          <NumberListv2 numbers={numbers} />
         </main>
       </div>
     );
