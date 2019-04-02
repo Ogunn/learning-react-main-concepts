@@ -6,10 +6,12 @@ import Mailbox from "./components/RenderizaçãoCondicional/Mailbox";
 import Timer from "./components/RenderizaçãoCondicional/Timer";
 import Toggle from "./components/ManipulandoEventos/Toggle";
 import Page from "./components/RenderizaçãoCondicional/Page";
+import NumberList from "./components/Listas&Chaves/NumberList";
 
 class App extends Component {
   render() {
     const messages = ["React", "Re: React", "Re: Re: React"];
+    const numbers = [1, 2, 3, 4, 5];
     // const messages = [];
 
     return (
@@ -29,6 +31,7 @@ class App extends Component {
           </a>
         </header>
         <main>
+          <NumberList numbers={numbers} />
           <Page />
           <Toggle />
           <Timer />
