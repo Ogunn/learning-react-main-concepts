@@ -4,6 +4,7 @@ import "./App.css";
 import LoginControl from "./components/LoginControl";
 import Mailbox from "./components/Mailbox";
 import Timer from "./components/Timer";
+import Toggle from "./components/demo/Toggle";
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
           </a>
         </header>
         <main>
+          <Toggle />
           <Timer />
           <LoginControl />
           <Mailbox unreadMessages={messages} />
