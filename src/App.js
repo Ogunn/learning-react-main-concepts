@@ -9,6 +9,7 @@ import Page from "./components/RenderizaçãoCondicional/Page";
 import NumberList from "./components/Listas&Chaves/NumberList";
 import NumberListv2 from "./components/Listas&Chaves/NumberListv2";
 import Blog from "./components/Listas&Chaves/Blog";
+import Calculator from "./components/liftingStateUp/Calculator";
 
 class App extends Component {
   render() {
@@ -43,6 +44,7 @@ class App extends Component {
           </a>
         </header>
         <main>
+          <Calculator />
           <Blog posts={posts} />
           <NumberList numbers={numbers} />
           <Page />
