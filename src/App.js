@@ -8,12 +8,23 @@ import Toggle from "./components/ManipulandoEventos/Toggle";
 import Page from "./components/RenderizaçãoCondicional/Page";
 import NumberList from "./components/Listas&Chaves/NumberList";
 import NumberListv2 from "./components/Listas&Chaves/NumberListv2";
+import Blog from "./components/Listas&Chaves/Blog";
 
 class App extends Component {
   render() {
     const messages = ["React", "Re: React", "Re: Re: React"];
     const numbers = [1, 2, 3, 4, 5];
     // const messages = [];
+
+    // Para uso do component <Blog />
+    const posts = [
+      { id: 1, title: "Hello World", content: "Welcome to learngin React!" },
+      {
+        id: 2,
+        title: "Installation",
+        content: "You can install React from npm."
+      }
+    ];
 
     return (
       <div className="App">
@@ -32,6 +43,7 @@ class App extends Component {
           </a>
         </header>
         <main>
+          <Blog posts={posts} />
           <NumberList numbers={numbers} />
           <Page />
           <Toggle />
