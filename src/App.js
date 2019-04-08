@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import LoginControl from "./components/RenderizaçãoCondicional/LoginControl";
-import Mailbox from "./components/RenderizaçãoCondicional/Mailbox";
-import Timer from "./components/RenderizaçãoCondicional/Timer";
-import Toggle from "./components/ManipulandoEventos/Toggle";
-import Page from "./components/RenderizaçãoCondicional/Page";
-import NumberList from "./components/Listas&Chaves/NumberList";
-import NumberListv2 from "./components/Listas&Chaves/NumberListv2";
-import Blog from "./components/Listas&Chaves/Blog";
-import Calculator from "./components/liftingStateUp/Calculator";
+import LoginControl from "./components/renderizacaoCondicional/LoginControl";
+import Mailbox from "./components/renderizacaoCondicional/Mailbox";
+import Timer from "./components/renderizacaoCondicional/Timer";
+import Toggle from "./components/manipulandoEventos/Toggle";
+import Page from "./components/renderizacaoCondicional/Page";
+import NumberList from "./components/listasEChaves/NumberList";
+import NumberListv2 from "./components/listasEChaves/NumberListv2";
+import Blog from "./components/listasEChaves/Blog";
+import Calculator from "./components/elevandoOState/Calculator";
 
 class App extends Component {
   render() {
